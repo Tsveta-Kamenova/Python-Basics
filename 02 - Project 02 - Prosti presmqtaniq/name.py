@@ -1,0 +1,7 @@
+first_name = input()
+last_name = input()
+age = int(input())
+town = input()
+str = ("You are " + first_name + " " + last_name + ", a " + str(age) + "-years old person from " + town + ".")
+qwe = ("You are %s %s, a %d-years old person from %s." % (first_name, last_name, age, town) )
+print(qwe)
